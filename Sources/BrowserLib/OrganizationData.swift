@@ -8,5 +8,8 @@
 import Foundation
 struct OrganizationData:Decodable{
     var login:String
-    
+    var id:Int
+    var reposURL:String
+    var avatarURL:String
+    var description:String?
 }
